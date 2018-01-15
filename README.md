@@ -5,7 +5,7 @@ Currency Convertor is a simple interactive web component, mobile and browser rea
  
 # New Features!
 
-  - Able to ipnput currency value in input box
+  - Able to input currency value in input box
   - Dropdown  allows to select the currencies CAD, USD, EUR
   - Able to see instantly converted result based on selected currency
   - Disclaimer hyperlink in the widget directs to important information on currencyy conversion
