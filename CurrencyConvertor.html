@@ -1,0 +1,72 @@
+<html
+<head>
+		<link rel="stylesheet" type="text/css" href="./CurrencyConvertor.scss"></link>
+</head>
+<body>
+<div class="parent-container">
+<div class="container-border">
+<div class="currency-converter">Currency Convertor</div>
+	<div class="ind-container"> <p>Type in amount and select currency:</p>
+	<input type="number" name="convert" placeholder="0.00" onkeypress="convertor(0)">
+	<select name="base_currency" onchange="convertor(0)">
+		<option>CAD</option>
+		<option>USD</option>
+		<option>EUR</option>
+	</select><br>
+	</div>
+	<div class="ind-container"> <p>Converted amount:</p>
+	<input type="number" name="convertor" placeholder="0.00">
+	<select name="target_currency">
+		<option>USD</option>
+		<option>EUR</option>
+		<option>CAD</option>
+	</select><br>
+	</div>
+	<a class="disclaimer" href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html" target="_blank">Disclaimer</a>
+</div>  
+<div class="container-border">
+		<div class="currency-converter">Currency Convertor</div>
+	<div class="ind-container"> <p>Type in amount and select currency:</p>
+	<input type="number" name="convert" placeholder="0.00" onkeypress="convertor(1)">
+	<select name="base_currency" onchange="convertor(1)">
+		<option>CAD</option>
+		<option>USD</option>
+		<option>EUR</option>
+	</select><br>
+	</div>
+	<div class="ind-container"> <p>Converted amount:</p>
+	<input type="number" name="convertor" placeholder="0.00">
+	<select name="target_currency">
+		<option>USD</option>
+		<option>EUR</option>
+		<option>CAD</option>
+	</select><br>
+	</div>
+	<a class="disclaimer" href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html" target="_blank">Disclaimer</a>
+</div>   
+<div class="container-border">
+		<div class="currency-converter">Currency Convertor</div>
+		<div class="ind-container"> <p>Type in amount and select currency:</p>
+		<input type="number" name="convert" placeholder="0.00" onkeypress="convertor(1)">
+		<select name="base_currency" onchange="convertor(1)">
+			<option>CAD</option>
+			<option>USD</option>
+			<option>EUR</option>
+		</select><br>
+		</div>
+		<div class="ind-container"> <p>Converted amount:</p>
+		<input type="number" name="convertor" placeholder="0.00">
+		<select name="target_currency">
+			<option>USD</option>
+			<option>EUR</option>
+			<option>CAD</option>
+		</select><br>
+		</div>
+		<a class="disclaimer" href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html" target="_blank">Disclaimer</a>
+	</div> 
+</div>
+</body>
+<script type="text/javascript" src="./CurrencyConvertor.js"></script>
+<script type="text/javascript" src="./constants.js">
+  </script>
+</html>

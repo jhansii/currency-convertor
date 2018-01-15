@@ -1,0 +1,49 @@
+.container-border {
+    border-style: groove;
+    width: 335px;
+    display: inline-block;
+    margin-left: 0.9375rem;
+    padding-left:0.9375rem;
+    margin-top: 0.625rem;
+}
+
+.parent-container {
+    width: 100%;
+    display: table;
+}
+
+.disclaimer {
+    float: right;
+    margin: 5px 5px 5px 0px;
+    padding-right: 58px;
+}
+
+.ind-container {
+    margin-left: 0.3125rem;
+}
+.currency-converter{
+    font-size:20px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    padding: 10px 10px;
+    background:rgb(220, 220, 220);
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
